@@ -1,0 +1,219 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../assets/DM_Sans/DMSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../assets/DM_Sans/DMSans-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bungee';
+  src: url('../assets/Bungee_Spice/BungeeSpice-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfort';
+  src: url('../assets/Comfortaa/Comfortaa-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comforter';
+  src: url('../assets/Comforter_Brush/ComforterBrush-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing';
+  src: url('../assets/Dancing_Script/DancingScript-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('../assets/Great_Vibes/GreatVibes-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/Inter_Tight/InterTight-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin';
+  src: url('../assets/Josefin_Sans/JosefinSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kaushan';
+  src: url('../assets/Kaushan_Script/KaushanScript-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Luckiest';
+  src: url('../assets/Luckiest_Guy/LuckiestGuy-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../assets/Orbitron/Orbitron-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../assets/Oswald/Oswald-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../assets/Pacifico/Pacifico-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Passions';
+  src: url('../assets/Passions_Conflict/PassionsConflict-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Peralta';
+  src: url('../assets/Peralta/Peralta-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../assets/Playfair_Display/PlayfairDisplay-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('../assets/Righteous/Righteous-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/Roboto_Mono/RobotoMono-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('../assets/Silkscreen/Silkscreen-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../assets/Ubuntu/Ubuntu-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../assets/Work_Sans/WorkSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
